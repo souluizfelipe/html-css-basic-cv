@@ -1,0 +1,55 @@
+:root {
+    --font-poppins: 'Poppins', sans-serif;
+    --font-roboto: 'Roboto', sans-serif; 
+
+    --color-black: #33322E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #e2e2e2;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-roboto);
+    color: var(--color-black)
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-header {
+    text-align: center;
+    margin: 100px 0 50px;
+}
+
+.profile-picture {
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 12px #888888;
+}
+.title-wrapper {
+    margin: 25px 0;
+}
+
+.main-title {
+    font-family: var(--font-poppins);
+    font-size: 2.5rem;
+}
+
+.main-subtitle {
+    font-family: var(--font-poppins);
+    font-size: 1.5rem;
+}
+
+.social-icons {
+    width: 1.5rem;
+}
