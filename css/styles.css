@@ -48,8 +48,46 @@ body {
 .main-subtitle {
     font-family: var(--font-poppins);
     font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.social-links {
+    margin-right:16px;
+}
+
+.social-links:last-of-type{
+    margin-right: 0;
 }
 
 .social-icons {
     width: 1.5rem;
+}
+
+.main-texts {
+    text-align: justify;
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+}
+
+.skill-wrapper {
+    text-align: center;
+}
+
+.skill-list {
+    margin-bottom: 40px;
+    list-style: none;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.skill-item {
+    display: flex;
+    align-items: flex-end;
+    margin: 8px 16px;
+}
+
+.skill-logo {
+    width: 100px;
 }
